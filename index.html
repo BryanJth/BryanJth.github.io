@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Your Name] | Data Enthusiast</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body>
+  <header class="header-navigation">
+    <img src="assets/logo.png" alt="logo" class="logo"/>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <nav class="navbar">
+      <a class="active" href="#home">Home</a>
+      <a href="#experience">Experiences</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certification">Certifications</a>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <div class="home-content">
+      <h3>Hi, there!</h3>
+      <h1>I'm <span>[Your Name]</span></h1>
+      <p>[Write a short introduction about yourself, your background, and your interests]</p>
+    </div>
+    <div><div class="circle" style="background-image: url(assets/profile.jpg);"></div></div>
+  </section>
+
+  <section id="experience" class="experience">
+    <h2 class="heading">Experiences</h2>
+    <div class="experience-row">
+      <div class="experience-column">
+        <h3 class="title">Work Experiences</h3>
+        <div class="experience-box">
+          <div class="experience-content">
+            <div class="content">
+              <div class="year"><i class="bx bxs-calendar"></i> [Month YYYY - Month YYYY]</div>
+              <h3><span>[Your Job Title]</span> - [Company Name]</h3>
+              <ul>
+                <li>[Responsibility or achievement 1]</li>
+                <li>[Responsibility or achievement 2]</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-column">
+        <h3 class="title">Organizational Experiences</h3>
+        <div class="experience-box">
+          <div class="experience-content">
+            <div class="content">
+              <div class="year"><i class="bx bxs-calendar"></i> [Month YYYY - Month YYYY]</div>
+              <h3><span>[Your Role]</span> - [Organization Name]</h3>
+              <ul>
+                <li>[Responsibility or project 1]</li>
+                <li>[Responsibility or project 2]</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="heading">Skills</h2>
+    <div class="container">
+      <div class="row" id="skillsContainer">
+        <div class="bar"><div class="info"><span>[Skill 1]</span></div></div>
+        <div class="bar"><div class="info"><span>[Skill 2]</span></div></div>
+        <div class="bar"><div class="info"><span>[Skill 3]</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="heading">Projects</h2>
+    <div class="project-item">
+      <div class="project-content">
+        <img src="assets/projects/project1.jpg" alt="">
+        <h3>[Project Title 1]</h3>
+        <p>[Short description of project]</p>
+        <div class="btn-box">
+          <a href="[GitHub Link]" class="btn">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certification" class="certification">
+    <h2 class="heading">Certifications</h2>
+    <div class="certification-row">
+      <div class="certification-column">
+        <img class="img-certificate" src="assets/certificates/cert1.jpg"/>
+        <h3>[Certification Title]</h3>
+        <p>Credential: <a href="#">[Link or Credential ID]</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="social">
+      <a href="#"><i class='bx bxl-github'></i></a>
+      <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+      <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+      <a href="mailto:[your@email.com]"><i class='bx bxs-envelope'></i></a>
+    </div>
+    <p>Email: <a href="mailto:[your@email.com]">[your@email.com]</a></p>
+    <p class="copyright">Copyright © <span id="currentYear"></span> by [Your Name] | All Rights Reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
