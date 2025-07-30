@@ -652,7 +652,10 @@ section {
 }
 
 .skill-icon {
-    width: 48px;      /* ⬅️ perbesar sesuai kebutuhan */
-    height: 48px;
-    object-fit: contain;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
+
