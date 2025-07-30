@@ -642,9 +642,17 @@ section {
     }
 }
 
+.skills .container .bar .info {
+    display: flex;
+    flex-direction: column; /* ⬅️ ikon di atas, teks di bawah */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.2rem;
+}
+
 .skill-icon {
-  width: 24px;
-  height: 24px;
-  margin-right: 8px;
-  vertical-align: middle;
+    width: 48px;      /* ⬅️ perbesar sesuai kebutuhan */
+    height: 48px;
+    object-fit: contain;
 }
